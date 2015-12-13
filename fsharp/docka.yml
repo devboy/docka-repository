@@ -1,0 +1,8 @@
+export:
+  - mono
+  - fsharpi
+  - fsharpc
+  - paket:
+      exec: "mono /usr/local/bin/paket.exe $@"
+import:
+    - centos

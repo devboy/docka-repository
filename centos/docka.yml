@@ -1,0 +1,6 @@
+export:
+    - stow: {}
+    - centos.docker:
+        exec: "docker $@"
+    - centos.docker-machine:
+        exec: "docker-machine $@"

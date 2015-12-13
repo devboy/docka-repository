@@ -1,0 +1,5 @@
+export:
+  - node
+  - npm
+import:
+    - centos
